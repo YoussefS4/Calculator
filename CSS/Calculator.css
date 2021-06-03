@@ -1,0 +1,68 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.body{
+    background-color: lightgray;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 8px;
+    border-radius: 10px 10px 0px 0px;
+}
+.result{
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+    padding: 20px;
+    font-size: 3rem;
+    color: white;
+    background-image: linear-gradient(to left,orange ,lightcoral);
+    font-family: Century, serif;
+
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.buttons button{
+    padding: 30px;
+    font-size:2rem;
+    border: none;
+    transition: .4s all linear;
+    font-family: Century, serif;
+    font-weight: bold;
+}
+.buttons button:active{
+    background-color: lightgray;
+}
+.custom{
+    background-color: lightgray;
+    color: black;
+}
+.custom:hover{
+    background-color: white;
+}
+.custom1{
+    background-image: linear-gradient(to  left ,orange,lightcoral);
+}
+.custom1:hover{
+    background :lightgray ;
+}
+
+.custom2{
+    text-transform: uppercase;
+    background: linear-gradient( lightcoral 100%, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    grid-column: span 2;
+}
+
+.custom3{
+    background-color: white;
+}
+.custom3:hover{
+    background-color: lightgray;
+}

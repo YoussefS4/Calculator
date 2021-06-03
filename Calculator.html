@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator Using JavaScript</title>
+    <link rel="stylesheet" href="CSS/Calculator.css">
+    <script src="JavaScript/Calculator.js"></script>
+</head>
+<body>
+<div class="body">
+    <form name="fun">
+        <input class="result" readonly name="input">
+    </form>
+    <div class="buttons">
+        <button onclick= "document.fun.input.value= clearAll()" class ="custom2" id="AC">AC</button>
+        <button onclick= "document.fun.input.value+= Print('%');" class="custom">%</button>
+        <button onclick= "document.fun.input.value+= Print('/')" class="custom">/</button>
+
+        <button onclick= "document.fun.input.value+= Print('7')" class="custom3">7</button>
+        <button onclick= "document.fun.input.value+= Print('8')" class="custom3">8</button>
+        <button onclick= "document.fun.input.value+= Print('9')" class="custom3">9</button>
+        <button onclick= "document.fun.input.value+= Print('*')" class="custom">*</button>
+
+        <button onclick= "document.fun.input.value+= Print('4')" class="custom3">4</button>
+        <button onclick= "document.fun.input.value+= Print('5')" class="custom3">5</button>
+        <button onclick= "document.fun.input.value+= Print('6')" class="custom3">6</button>
+        <button onclick= "document.fun.input.value+= Print('-')" class="custom">-</button>
+
+        <button onclick= "document.fun.input.value+= Print('1')" class="custom3">1</button>
+        <button onclick= "document.fun.input.value+= Print('2')" class="custom3">2</button>
+        <button onclick= "document.fun.input.value+= Print('3')" class="custom3">3</button>
+        <button onclick= "document.fun.input.value+= Print('+')" class="custom">+</button>
+
+        <button onclick= "document.fun.input.value = Del()" class="custom3">DEL</button>
+        <button onclick= "document.fun.input.value+= Print('0')" class="custom3">0</button>
+        <button onclick= "document.fun.input.value+= Print('.')" class="custom3">.</button>
+        <button onclick= "document.fun.input.value= Result()" class="custom1">=</button>
+    </div>
+</div>
+</body>
+</html>
